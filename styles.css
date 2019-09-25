@@ -1,0 +1,31 @@
+body 
+{margin: 0;
+ border: 0;
+ padding: 0px;
+ border-top: #0574ac 10px solid;   
+}
+
+p,td {font-size: 10pt; font-family: arial; }
+
+a:link {color: #0055a5; text-decoration:none; }
+a:visited {color: #0055a5; text-decoration:none; }
+a:hover {color: #900; text-decoration:none; }
+
+img {border-width: 1px; border-color: #000000; border-style: solid; }
+
+#menu {text-align:left;width: 960px;margin-top:10px;border-bottom:1px dotted #000000; }
+#menu a {color:#0574ac;font-weight:bold;}
+.menulinks {line-height:1.7em; margin:0 0 0 0;}
+.menulink {padding:6px 8px 5px 8px; font-size:10pt; margin:0 0 0 2px;}
+.menulink:hover {background-color:#E0E0E0; }
+.active {background-color:#E0E0E0; }
+.active:hover {background-color:#E0E0E0; }
+
+.sectiontitle{font-size: 12pt; font-family: arial; font-weight: bold;}
+.pub{font-size: 10pt; font-family: arial;}
+.bib{color: pink; font-size:10pt; font-family: tahoma}
+
+.news{font-size: 10pt; color: #111; font-family: arial; line-height:136%}
+.footnotes{font-size: 7pt; color: #555; font-family: verdana; line-height:136%}
+
+#counter img {border-width:0px;}
