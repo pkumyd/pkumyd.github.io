@@ -5,7 +5,7 @@ body
  border-top: #0574ac 10px solid;   
 }
 
-p,td {font-size: 10pt; font-family: arial; }
+p,td,ul {font-size: 10pt; font-family: arial; line-height:140%}
 
 a:link {color: #0055a5; text-decoration:none; }
 a:visited {color: #0055a5; text-decoration:none; }
@@ -22,10 +22,10 @@ img {border-width: 1px; border-color: #000000; border-style: solid; }
 .active:hover {background-color:#E0E0E0; }
 
 .sectiontitle{font-size: 12pt; font-family: arial; font-weight: bold;}
-.pub{font-size: 10pt; font-family: arial;}
+.pub{font-size: 10pt; font-family: arial;line-height:140%}
 .bib{color: pink; font-size:10pt; font-family: tahoma}
 
-.news{font-size: 10pt; color: #111; font-family: arial; line-height:136%}
-.footnotes{font-size: 7pt; color: #555; font-family: verdana; line-height:136%}
+.news{font-size: 10pt; color: #111; font-family: arial; line-height:140%}
+.footnotes{font-size: 7pt; color: #555; font-family: verdana; line-height:140%}
 
 #counter img {border-width:0px;}
