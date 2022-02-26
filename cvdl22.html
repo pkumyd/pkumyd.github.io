@@ -1,191 +1,267 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Yadong Mu</title>
-	<meta content="text/html; charset=GB2312" http-equiv="Content-Type" />
-	<link href="styles.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <title>04833510 Computer Vision and Deep Learning</title>
+
+    <!-- display nicely on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" </meta>
+    <!-- bootstrap 3 -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+        crossorigin="anonymous">
+
 </head>
+
 <body>
-<table border="0" cellpadding="5" cellspacing="9" width="700">
-	<tbody>
-		<tr style="text-align: center">
-			<td>
-			<p><font color="blue" size="5"><strong>Computer Vision and Deep Learning </strong></font></p>
 
-			<p><font color="blue" size="5"><strong>(2022 Undergraduate Course)</strong></font></p>
-			</td>
-		</tr>
-		<tr style="width: 160px; text-align: center">
-			<td><font color="black" size="4"><strong>Instructor: Prof. Mu Yadong (email: myd@pku.edu.cn)</strong></font></td>
-		</tr>
-		<tr style="width: 160px; text-align: left">
-			<td><strong>Location</strong>: Room 302, Teaching Building 2, Peking University</td>
-		</tr>
-		<tr style="width: 500px; text-align: left">
-			<td><strong>Time</strong>: Friday 15:10pm - 17:00pm (every week)</td>
-		</tr>
-		<tr style="width: 500px; text-align: left">
-			<td><strong>TA</strong>: TBA</td>
-		</tr>
-	</tbody>
-</table>
+    <div class="container titlebar">
+        <div class="row">
+            <div class="title-col vcenter" style="color:#A80000;font-weight:bold;text-align:center;width:80%;">
+                <img src="images/pku_logo.png" width="100" class="img-rounded">
+                <div id="title" style="font-size:18pt">
+                    <b>04833510</b> Computer Vision and Deep Learning
+                </div>
+                <div class="subtitle" style="font-size:14pt">EECS, Peking University<br><i>Spring 2022 </i><br> <br>
+                </div>
+            </div>
+        </div>
 
-<table border="0" cellpadding="5" cellspacing="5" style="width: 800px">
-	<tbody>
-		<tr valign="top">
-			<td style="width: 100px; text-align: center">Feb 25, 2022</td>
-			<td style="width: 160px; text-align: left">Introduction - I</td>
-			<td style="width: 500px; text-align: left">
-			<ul>
-				<li>Course Introduction</li>
-				<li>Introduction to Computer Vision: illustrative applications and demos</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="width: 100px; text-align: center">March 4, 2022</td>
-			<td style="width: 160px; text-align: left">Introduction - II</td>
-			<td style="width: 500px; text-align: left">
-			<ul>
-				<li>Bacics of machine learning</li>
-				<li>Deep Learning: history, key concepts, back-propagation, neural layers etc.</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">March 11, 2022</td>
-			<td>Topic: Visual Recognition - I</td>
-			<td>
-			<ul>
-				<li>Visual Recognition: Task Definition and Challenges</li>
-				<li>Visual Features: Harris Corner, SIFT, MSER, HOG etc.</li>
-				<li>Bag-of-words Models</li>
-				<li>Spatial Pyramid Matching</li>
-				<li>Pyramid Match Kernel</li>
-				<li>Vocabulary Tree</li>
-				<li>Sparse Coding</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">March 18, 2022</td>
-			<td>Topic: Visual Recognition - II</td>
-			<td valign="top">
-			<ul>
-				<li>Deep Learning for Visual Recognition: LeNet-5, AlexNet, VGG-16, GoogleNet, ResNet</li>
-				<li>Network Visualizatioin</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">March 25, 2022</td>
-			<td>Topic: Object Detection - I</td>
-			<td>
-			<ul>
-				<li>V-J Face Detector (Integral Image, AdaBoost, Cascade)</li>
-				<li>HOG+SVM with NMS</li>
-				<li>Deformable Part Model (DPM) for Pedestrian Detection</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">April 1, 2022</td>
-			<td>Topic: Object Detection - II</td>
-			<td>
-			<ul>
-				<li>R-CNN</li>
-				<li>Fast R-CNN</li>
-				<li>Faster R-CNN</li>
-				<li>R-FCN</li>
-				<li>Multi-Scale R-CNN</li>
-				<li>Feature Pyramid Network</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">April 8, 2022</td>
-			<td>Topic: Pixel Computing - I</td>
-			<td>
-			<ul>
-				<li>Pixel Labeling: Segmentation, Matting, Parsing</li>
-				<li>Unsupervised Image Segmentation: K-means, Mean-Shift, Normalized Cut</li>
-				<li>Interactive Object Cutout: GraphCut, GrabCut, LazySnapping</li>
-				<li>Image Matting: Poisson Matting, Closed-Form Matting, Robust Color Sampling</li>
-				<li>Image Co-segmentation</li>
-				<li>Image Inpainting / Image Completion</li>
-				<li>Scene Parsing: Sparse Coding</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">April 15, 2022</td>
-			<td>Topic: Pixel Computing - II</td>
-			<td>
-			<ul>
-				<li>Deep Pixel Labeling: FCN, DeepLab, SegNet, CNN-as-RNN</li>
-				<li>Human Pose Estimation: Bottom-Up and Top-Down</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">April 22, 2022</td>
-			<td>Topic: Visual Tracking</td>
-			<td>
-			<ul>
-				<li>TBA</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">April 29, 2022</td>
-			<td>Topic: Reccurent Deep Networks and Transformers</td>
-			<td>
-			<ul>
-				<li>Unrolling Computational Graph</li>
-				<li>RNN variants (recurrent through output, sequence-input-single-output, teaching forcing, encoder-decoder, bi/quad-directional RNN etc.)</li>
-				<li>Long short-term memory (LSTM)</li>
-				<li>Transformer and its variants</li>
-				<li>Applications</li>
-			</ul>
-			</td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 13, 2022</td>
-			<td>Topic: Video Computing</td>
-			<td>
-			<ul>
-				<li>Introduction of Video Computing Tasks</li>
-				<li>Video Features (STIP,&nbsp;Deep Video, C3D, Trajectory Feature)</li>
-				<li>Deep Learning for Video Classification (multi-stream fusion techniques)</li>
-				<li>Video Event Detection and Action Detection</li>
-				<li>An Illustrative System for Video Classification</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 20, 2022</td>
-			<td>Topic: Vision-Language Learning</td>
-			<td>
-			<ul>
-				<li>Image and Video Captioning</li>
-				<li>Image and Video Synthesis</li>
-				<li>Visual Search with Natural Language</li>
-				<li>Language based Visual Navigation</li>
-			</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 27, 2022</td>
-			<td>3D Vision</td>
-			<td>TBA</td>
-		</tr>
-<tr valign="top">
-			<td style="text-align: center">June 10, 2022</td>
-			<td>Course Project Presentation</td>
-			<td>TBA</td>
-		</tr>
+    </div>
+  
+    <div id="lectures" class="container">
+        <div class="row" style="width:80%">
 
-	</tbody>
-</table>
+
+<p><b style="color:#A80000;">Instructor:</b> <ul style="margin-top:-2px;">
+                <li>Prof. <b>Yadong Mu</b> : myd@pku.edu.cn</li>
+            </ul> </p>
+            <p><b style="color:#A80000;">Teaching Assistant:</b>  <ul style="margin-top:-2px;">
+                <li>Mr. <b>Zhicheng Sun</b> : sunzc@pku.edu.cn</li>
+                <li>Mr. <b>Xinghan Wang</b> : xinghan_wang@pku.edu.cn</li>
+            </ul> </p>
+            <p><b style="color:#A80000;">Location:</b> Room 302, Teaching Building 2, Peking University </p>
+            <p><b style="color:#A80000;">Time:</b> Friday 15:10pm - 17:00pm (every week)</p>
+            <p><b id="oh" style="color:#A80000;">Office hours: </b> Drop an email or wechat message to the instructor or TAs for appointing a course-related face-to-face QA. </p><br>
+
+    <p><b style="color:#A80000;">Schedule of Lectures</b> </p>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-condensed table-hover">
+                    <thead>
+                        <tr class="danger">
+                            <th style="text-align: center">Date</th>
+                            <th style="text-align: center">Topics</th>
+                            <th style="text-align: center"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+            <tr valign="top">
+            <td style="text-align: center">Feb 25, 2022</td>
+            <td>Introduction - I</td>
+            <td>
+            <ul>
+                <li>Course Introduction</li>
+                <li>Introduction to Computer Vision: illustrative applications and demos</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center" >March 4, 2022</td>
+            <td >Introduction - II</td>
+            <td >
+            <ul>
+                <li>Bacics of machine learning</li>
+                <li>Deep Learning: history, key concepts, back-propagation, neural layers etc.</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">March 11, 2022</td>
+            <td>Topic: Visual Recognition - I</td>
+            <td>
+            <ul>
+                <li>Visual Recognition: Task Definition and Challenges</li>
+                <li>Visual Features: Harris Corner, SIFT, MSER, HOG etc.</li>
+                <li>Bag-of-words Models</li>
+                <li>Spatial Pyramid Matching</li>
+                <li>Pyramid Match Kernel</li>
+                <li>Vocabulary Tree</li>
+                <li>Sparse Coding</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">March 18, 2022</td>
+            <td>Topic: Visual Recognition - II</td>
+            <td valign="top">
+            <ul>
+                <li>Deep Learning for Visual Recognition: LeNet-5, AlexNet, VGG-16, GoogleNet, ResNet</li>
+                <li>Network Visualizatioin</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">March 25, 2022</td>
+            <td>Topic: Object Detection - I</td>
+            <td>
+            <ul>
+                <li>V-J Face Detector (Integral Image, AdaBoost, Cascade)</li>
+                <li>HOG+SVM with NMS</li>
+                <li>Deformable Part Model (DPM) for Pedestrian Detection</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">April 1, 2022</td>
+            <td>Topic: Object Detection - II</td>
+            <td>
+            <ul>
+                <li>R-CNN</li>
+                <li>Fast R-CNN</li>
+                <li>Faster R-CNN</li>
+                <li>R-FCN</li>
+                <li>Multi-Scale R-CNN</li>
+                <li>Feature Pyramid Network</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">April 8, 2022</td>
+            <td>Topic: Pixel Computing - I</td>
+            <td>
+            <ul>
+                <li>Pixel Labeling: Segmentation, Matting, Parsing</li>
+                <li>Unsupervised Image Segmentation: K-means, Mean-Shift, Normalized Cut</li>
+                <li>Interactive Object Cutout: GraphCut, GrabCut, LazySnapping</li>
+                <li>Image Matting: Poisson Matting, Closed-Form Matting, Robust Color Sampling</li>
+                <li>Image Co-segmentation</li>
+                <li>Image Inpainting / Image Completion</li>
+                <li>Scene Parsing: Sparse Coding</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">April 15, 2022</td>
+            <td>Topic: Pixel Computing - II</td>
+            <td>
+            <ul>
+                <li>Deep Pixel Labeling: FCN, DeepLab, SegNet, CNN-as-RNN</li>
+                <li>Human Pose Estimation: Bottom-Up and Top-Down</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">April 22, 2022</td>
+            <td>Topic: Visual Tracking</td>
+            <td>
+            <ul>
+                <li>TBA</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">April 29, 2022</td>
+            <td>Topic: Reccurent Deep Networks and Transformers</td>
+            <td>
+            <ul>
+                <li>Unrolling Computational Graph</li>
+                <li>RNN variants (recurrent through output, sequence-input-single-output, teaching forcing, encoder-decoder, bi/quad-directional RNN etc.)</li>
+                <li>Long short-term memory (LSTM)</li>
+                <li>Transformer and its variants</li>
+                <li>Applications</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top" class="warning">
+            <td style="text-align: center">May 6, 2022</td>
+            <td>Holiday - no class</td>
+            <td>
+            </td>
+        </tr>
+
+        <tr valign="top">
+            <td style="text-align: center">May 13, 2022</td>
+            <td>Topic: Video Computing</td>
+            <td>
+            <ul>
+                <li>Introduction of Video Computing Tasks</li>
+                <li>Video Features (STIP,&nbsp;Deep Video, C3D, Trajectory Feature)</li>
+                <li>Deep Learning for Video Classification (multi-stream fusion techniques)</li>
+                <li>Video Event Detection and Action Detection</li>
+                <li>An Illustrative System for Video Classification</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">May 20, 2022</td>
+            <td>Topic: Vision-Language Learning</td>
+            <td>
+            <ul>
+                <li>Image and Video Captioning</li>
+                <li>Image and Video Synthesis</li>
+                <li>Visual Search with Natural Language</li>
+                <li>Language based Visual Navigation</li>
+            </ul>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td style="text-align: center">May 27, 2022</td>
+            <td>3D Vision</td>
+            <td>TBA</td>
+        </tr>
+        <tr valign="top" class="warning">
+            <td style="text-align: center">June 3, 2022</td>
+            <td>Holiday - no class</td>
+            <td>
+            </td>
+        </tr>
+<tr valign="top" class="success">
+            <td style="text-align: center">June 10, 2022</td>
+            <td>Course Project Presentation</td>
+            <td>TBA</td>
+        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+<p><b style="color:#A80000;">Course Work</b> </p>
+                        <div class="table-responsive" style="border: none">
+                <table class="rules-table table-striped table-bordered table-condensed">
+                    <tbody>
+                        <tr class="success">
+                            <td class="policy-header"><b>Final Grade</b></td>
+                            <td>
+                                <ul>
+                                <li>Grading will be based on homeworks (25%), survey (25%) and a course project
+                                (50%). </li>
+                                <li>The end-of-term grade is curved. Your overall grade will depend on your performance
+                                    relative to your classmates.</li>
+                            </ul>
+                            </td>
+                        </tr>
+                        <tr class="success">
+                            <td class="policy-header"><b>Survey & Project</b></td>
+                            <td>
+                                <ul>
+                                    <li>The instructor will provide a list of candidate topics for writing the survey.
+                                    </li>
+                                    <li>
+                                        A Course Project is mandatory for all students. The only requirement for the topic is being computer vision related.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                      
+                    </tbody>
+                </table>
+            </div>
+
+            </div>
+            </div>        
+
 </body>
+
 </html>
