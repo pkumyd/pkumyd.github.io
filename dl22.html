@@ -1,88 +1,125 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Yadong Mu</title>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<link href="styles.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <title>08408005 Deep Learning: Algorithm and Application</title>
+
+    <!-- display nicely on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" </meta>
+    <!-- bootstrap 3 -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+        crossorigin="anonymous">
+
 </head>
+
 <body>
-<table border="0" cellpadding="5" cellspacing="9" width="700">
-	<tbody>
-		<tr style="text-align: center">
-			<td>
-			<p><font color="blue" size="5"><strong>Deep Learning: Algorithm and Application</strong></font></p>
 
-			<p><font color="blue" size="5"><strong>(2020 Graduate Course)</strong></font></p>
-			</td>
-		</tr>
-		<tr style="width: 160px; text-align: center">
-			<td><font color="black" size="4"><strong>Instructor: Prof. Mu Yadong (email: myd@pku.edu.cn)</strong></font></td>
-		</tr>
-		<tr style="width: 160px; text-align: left">
-			<td><strong>Location</strong>: Room 105, Teaching Building 3</td>
-		</tr>
-		<tr style="width: 500px; text-align: left">
-			<td><strong>Time</strong>: Tuesday 10:10am - 12:00pm (weekly), Thursday 10:10am - 12:00pm (biweekly)</td>
-		</tr>
-	</tbody>
-</table>
+    <div class="container titlebar">
+        <div class="row">
+            <div class="title-col vcenter" style="color:#A80000;font-weight:bold;text-align:center;">
+                <img src="images/pku_logo.png" width="100" class="img-rounded">
+                <div id="title" style="font-size:18pt">
+                    <b>08408005</b> Deep Learning: Algorithm and Application
+                </div>
+                <div class="subtitle" style="font-size:14pt">AAIS, Peking University<br><i>Spring 2022 </i><br> <br>
+                </div>
+            </div>
+        </div>
 
-<table border="0" cellpadding="5" cellspacing="5" style="width: 800px">
-	<tbody>
+    </div>
+  
+    <div id="lectures" class="container">
+        <div class="row">
+
+
+<p><b style="color:#A80000;">Instructor:</b> <ul style="margin-top:-2px;">
+                <li>Prof. <b>Yadong Mu</b> : myd@pku.edu.cn</li>
+            </ul> </p>
+            <p><b style="color:#A80000;">Teaching Assistant:</b>  <ul style="margin-top:-2px;">
+                <li>Mr. <b>Borui Jiang</b> : jbr@pku.edu.cn</li>
+                <li>Mr. <b>Yang Jin</b> : jiny@stu.pku.edu.cn</li>
+            </ul> </p>
+            <p><b style="color:#A80000;">Location:</b> Room 105, Teaching Building 3, Peking University </p>
+            <p><b style="color:#A80000;">Time:</b> Tuesday 10:10am - 12:00pm (weekly), Thursday 10:10am - 12:00pm (biweekly)</p>
+            <p><b id="oh" style="color:#A80000;">Office hours: </b> Drop an email or wechat message to the instructor or TAs for appointing a course-related face-to-face QA. </p><br>
+
+    <p><b style="color:#A80000;">Schedule of Lectures</b> </p>
+                <!-- div class="table-responsive"-->
+                        <div>
+                <table class="rules-table table-striped table-bordered table-condensed table-hover">
+                    <thead>
+                        <tr class="danger">
+                            <th style="text-align: center">Date</th>
+                            <th style="text-align: center">Topics</th>
+                            <th style="text-align: center"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">Feb 22, 2022</td>
-			<td style="width: 160px; text-align: left">Introduction - I</td>
+			<td style="width: 160px; text-align: left">Introduction</td>
 			<td style="width: 500px; text-align: left">
 			<ul>
-				<li>Course Introduction</li>
-				<li>Introduction to Deep Learning</li>
+				<li>Course logistics</li>
+				<li>A short tour to deep learning: illustrative applications, brief history etc.</li>
 			</ul>
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">March 1, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Machine Learning Basics</td>
 			<td style="width: 500px; text-align: left">
+				 <ul>
+                <li>Machine learning paradigms</li>
+                <li>Supervised learning: linear case</li>
+                <li>Supervised learning: non-linear case</li>
+                <li>Unsupervised learning</li>
+            </ul>
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">March 3, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Deep Learning Basics</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">March 8, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Backbone - I</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">March 15, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Backbone - II</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">March 17, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Backbone - III</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">March 22, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Sequential Models</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">March 29, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Transformer and MLP-Mixer</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">March 31, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Generative Models</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
@@ -94,31 +131,31 @@
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">April 12, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Adversarial and Backdoor Learning</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">April 14, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Deep Learning on Graphs</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">April 19, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Self-Supervised Learning / Meta-Learning / Continual Learning</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">April 26, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Reinforcement Learning - I</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">April 28, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Reinforcement Learning - II</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
@@ -130,53 +167,92 @@
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">May 10, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Deep Learning for Optimization</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">May 12, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Neural Architecture Search</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">May 17, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Applications: Computer Vision</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">May 24, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Applications: Robotics</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">May 26, 2022</td>
-			<td style="width: 160px; text-align: left">TBA</td>
+			<td style="width: 160px; text-align: left">Applications: Natural Language Processing</td>
 			<td style="width: 500px; text-align: left">
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">May 31, 2022</td>
-			<td style="width: 160px; text-align: left">Invited speakers</td>
-			<td style="width: 500px; text-align: left">
+			<td style="width: 160px; text-align: left">Course Project Presentation - I</td>
+			<td style="width: 500px; text-align: left">To be announced
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">June 7, 2022</td>
-			<td style="width: 160px; text-align: left">Course Project Presentation - I</td>
-			<td style="width: 500px; text-align: left">
+			<td style="width: 160px; text-align: left">Course Project Presentation - II</td>
+			<td style="width: 500px; text-align: left">To be announced
 			</td>
 		</tr>
 		<tr valign="top">
 			<td style="width: 100px; text-align: center">June 9, 2022</td>
-			<td style="width: 160px; text-align: left">Course Project Presentation - II</td>
-			<td style="width: 500px; text-align: left">
+			<td style="width: 160px; text-align: left">Course Project Presentation - III</td>
+			<td style="width: 500px; text-align: left">To be announced
 			</td>
 		</tr>
 	</tbody>
-</table>
+                </table>
+            </div>
+<br><br>
+<p><b style="color:#A80000;">Course Work</b> </p>
+                        <!-- div class="table-responsive" style="border: none"-->
+                        <div>
+                <table class="rules-table table-striped table-bordered table-condensed">
+                    <tbody>
+                        <tr class="success">
+                            <td class="policy-header"><b>Final Grade</b></td>
+                            <td>
+                                <ul>
+                                <li>Grading will be based on homeworks (25%), survey (25%) and a course project
+                                (50%). </li>
+                                <li>The end-of-term grade is curved. Your overall grade will depend on your performance
+                                    relative to your classmates.</li>
+                            </ul>
+                            </td>
+                        </tr>
+                        <tr class="success">
+                            <td class="policy-header"><b>Survey & Project</b></td>
+                            <td>
+                                <ul>
+                                    <li>The instructor will provide a list of candidate topics for writing the survey.
+                                    </li>
+                                    <li>
+                                        A Course Project is mandatory for all students. The only requirement for the topic is being computer vision related.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                      
+                    </tbody>
+                </table>
+            </div>
+
+            </div>
+            </div>        
+
 </body>
+
 </html>
