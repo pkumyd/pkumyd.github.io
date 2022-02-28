@@ -25,7 +25,7 @@ img {border-width: 1px; border-color: #000000; border-style: solid; }
 .pub{font-size: 10pt; font-family: verdana;line-height:100%}
 .bib{color: pink; font-size:10pt; font-family: tahoma}
 
-.news{font-size: 10pt; color: #111; font-family: verdana; line-height:130%}
-.footnotes{font-size: 7pt; color: #555; font-family: verdana; line-height:130%}
+.news{font-size: 10pt; color: #111; font-family: verdana; line-height:150%}
+.footnotes{font-size: 7pt; color: #555; font-family: verdana; line-height:150%}
 
 #counter img {border-width:0px;}
