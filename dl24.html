@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>08408005 Deep Learning: Algorithm and Application</title>
+
+    <!-- display nicely on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" </meta>
+    <!-- bootstrap 3 -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container titlebar">
+        <div class="row">
+            <div class="title-col vcenter" style="color:#A80000;font-weight:bold;text-align:center;">
+                <img src="images/pku_logo.png" width="100" class="img-rounded">
+                <div id="title" style="font-size:18pt">
+                    <b>08408005</b> Deep Learning: Algorithm and Application
+                </div>
+                <div class="subtitle" style="font-size:14pt">AAIS, Peking University<br><i>Spring 2022 </i><br> <br>
+                </div>
+            </div>
+        </div>
+
+    </div>
+  
+    <div id="lectures" class="container">
+        <div class="row">
+
+
+<p><b style="color:#A80000;">Instructor:</b> <ul style="margin-top:-2px;">
+                <li>Prof. <b>Yadong Mu</b> : myd@pku.edu.cn</li>
+            </ul> </p>
+            <p><b style="color:#A80000;">Teaching Assistant:</b>  <ul style="margin-top:-2px;">
+                <li>Mr. <b>Borui Jiang</b> : jiangbr@pku.edu.cn</li>
+                <li>Mr. <b>Yang Jin</b> : jiny@stu.pku.edu.cn</li>
+            </ul> </p>
+            <p><b style="color:#A80000;">Location:</b> Room 105, Teaching Building 3, Peking University </p>
+            <p><b style="color:#A80000;">Time:</b> Tuesday 10:10am - 12:00pm (weekly), Thursday 10:10am - 12:00pm (biweekly)</p>
+            <p><b id="oh" style="color:#A80000;">Office hours: </b> Drop an email or wechat message to the instructor or TAs for appointing a course-related face-to-face QA. </p><br>
+
+    <p><b style="color:#A80000;">Schedule of Lectures</b> </p>
+                <!-- div class="table-responsive"-->
+                        <div>
+                <table class="rules-table table-striped table-bordered table-condensed table-hover">
+                    <thead>
+                        <tr class="danger">
+                            <th style="text-align: center">Date</th>
+                            <th style="text-align: center">Topics</th>
+                            <th style="text-align: center"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+		<tr valign="top">
+			<td style="text-align: center">Feb 22, 2022</td>
+			<td>Introduction</td>
+			<td>
+			<ul>
+				<li>Course logistics</li>
+				<li>A short tour to deep learning: illustrative applications, brief history etc.</li>
+			</ul>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">March 1, 2022</td>
+			<td >Machine Learning Basics</td>
+			<td >
+				<ul>
+                <li>Machine learning paradigms</li>
+                <li>Supervised learning: linear case</li>
+                <li>Supervised learning: non-linear case</li>
+                <li>Gradient Descent</li>
+                <li>Stochastic Gradient Descent</li>
+                <li>Unsupervised learning</li>
+            	</ul>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">March 3, 2022</td>
+			<td >Deep Learning Basics</td>
+			<td >
+				<ul>
+                <li>Neural layers: convolution, pooling, FC, activation, loss functions</li>
+                <li>Gradient back-propagation</li>
+                <li>Auto-differentiation</li>
+                <li>Regularization</li>
+            	</ul>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">March 8, 2022</td>
+			<td >Backbone - I</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">March 15, 2022</td>
+			<td >Backbone - II</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">March 17, 2022</td>
+			<td >Backbone - III</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">March 22, 2022</td>
+			<td >Sequential Models</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">March 29, 2022</td>
+			<td >Transformer and MLP-Mixer</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">March 31, 2022</td>
+			<td >Generative Models</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">April 5, 2022</td>
+			<td >Holiday - no class</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">April 12, 2022</td>
+			<td >Adversarial and Backdoor Learning</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">April 14, 2022</td>
+			<td >Deep Learning on Graphs</td>
+			<td >Invited speaker: Professor Wei Hu from Wangxuan institute of Computer Technology, Peking University
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">April 19, 2022</td>
+			<td >Self-Supervised Learning / Meta-Learning / Continual Learning</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">April 26, 2022</td>
+			<td >Reinforcement Learning - I</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">April 28, 2022</td>
+			<td >Reinforcement Learning - II</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">May 3, 2022</td>
+			<td >Holiday - no class</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">May 10, 2022</td>
+			<td >Deep Learning for Optimization</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">May 12, 2022</td>
+			<td >Neural Architecture Search</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">May 17, 2022</td>
+			<td >Applications: Computer Vision</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">May 24, 2022</td>
+			<td >Applications: Robotics</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">May 26, 2022</td>
+			<td >Applications: Natural Language Processing</td>
+			<td >Invited speaker: Professor Yansong Feng from Wangxuan institute of Computer Technology, Peking University
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">May 31, 2022</td>
+			<td >Course Project Presentation - I</td>
+			<td >To be announced
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">June 7, 2022</td>
+			<td >Course Project Presentation - II</td>
+			<td >To be announced
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: center">June 9, 2022</td>
+			<td >Course Project Presentation - III</td>
+			<td >To be announced
+			</td>
+		</tr>
+	</tbody>
+                </table>
+            </div>
+<br><br>
+
+<p><b style="color:#A80000;">Textbook:</b> <ul style="margin-top:-2px;">
+                <li>Ian Goodfellow, Yoshua Bengio, Aaron Courville, Deep Learning, MIT Press, 2016</li>
+            </ul> </p>
+            <p><b style="color:#A80000;">References:</b>  <ul style="margin-top:-2px;">
+                <li>Christopher Bishop, Pattern Recognition and Machine Learning, Springer, 2006</li>
+                <li>Shai Ben-David and Shai Shalev-Shwartz, Understanding Machine Learning: From Theory to Algorithms, 2014</li>
+                <li>Richard Sutton, Reinforcement Learning, 2nd edition</li>
+				<li>Zhi-hua Zhou, Machine Learning (in Chinese), 2016</li>
+</ul> </p>
+            <br>
+
+<p><b style="color:#A80000;">Course Work</b> </p>
+                        <!-- div class="table-responsive" style="border: none"-->
+                        <div>
+                <table class="rules-table table-striped table-bordered table-condensed">
+                    <tbody>
+                        <tr class="success">
+                            <td class="policy-header"><b>Final Grade</b></td>
+                            <td>
+                                <ul>
+                                <li>Grading will be based on homeworks (25%), survey (25%) and a course project
+                                (50%). </li>
+                                <li>The end-of-term grade is curved. Your overall grade will depend on your performance
+                                    relative to your classmates.</li>
+                            </ul>
+                            </td>
+                        </tr>
+                        <tr class="success">
+                            <td class="policy-header"><b>Survey & Project</b></td>
+                            <td>
+                                <ul>
+                                    <li>The topic of survey paper should be DL-related.
+                                    </li>
+                                    <li>
+                                        A Course Project is mandatory for all students. The only requirement for the topic is being deep learning related.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                      
+                    </tbody>
+                </table>
+            </div>
+
+            </div>
+            </div>        
+
+</body>
+
+</html>
