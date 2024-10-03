@@ -9,22 +9,19 @@
     <!-- display nicely on phones -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" </meta>
     <!-- bootstrap 3 -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
-        crossorigin="anonymous">
 
 </head>
 
-<body>
+<body style="padding:30px;font-family:Candara;font-size:11pt">
 
     <div class="container titlebar">
         <div class="row">
-            <div class="title-col vcenter" style="color:#A80000;font-weight:bold;text-align:center;">
+            <div class="title-col vcenter" style="color:#A80000;font-weight:bold;text-align:left">
                 <img src="images/pku_logo.png" width="100" class="img-rounded">
-                <div id="title" style="font-size:18pt">
+                <div id="title" style="font-size:18pt;line-height:150%">
                     <b>08408005</b> Deep Learning: Algorithm and Application
                 </div>
-                <div class="subtitle" style="font-size:14pt">AAIS, Peking University<br><i>Spring 2022 </i><br> <br>
+                <div class="subtitle" style="font-size:14pt">AAIS, Peking University<br><i>Spring 2024 </i><br> <br>
                 </div>
             </div>
         </div>
@@ -36,14 +33,15 @@
 
 
 <p><b style="color:#A80000;">Instructor:</b> <ul style="margin-top:-2px;">
-                <li>Prof. <b>Yadong Mu</b> : myd@pku.edu.cn</li>
+                <li>Prof. <b>Yadong MU</b> : myd@pku.edu.cn</li>
             </ul> </p>
             <p><b style="color:#A80000;">Teaching Assistant:</b>  <ul style="margin-top:-2px;">
-                <li>Mr. <b>Borui Jiang</b> : jiangbr@pku.edu.cn</li>
-                <li>Mr. <b>Yang Jin</b> : jiny@stu.pku.edu.cn</li>
+                <li>Mr. <b>SUN Zhicheng</b> : sunzc@pku.edu.cn</li>
+                <li>Mr. <b>LIN Chenguo</b> : chenguolin@stu.pku.edu.cn</li>
+                <li>Mr. <b>LIU Hanwen</b> : hanwenliu@stu.pku.edu.cn</li>
             </ul> </p>
-            <p><b style="color:#A80000;">Location:</b> Room 105, Teaching Building 3, Peking University </p>
-            <p><b style="color:#A80000;">Time:</b> Tuesday 10:10am - 12:00pm (weekly), Thursday 10:10am - 12:00pm (biweekly)</p>
+            <p><b style="color:#A80000;">Location:</b> Room 304, Teaching Building 2, Peking University </p>
+            <p><b style="color:#A80000;">Time:</b> Tuesday 18:40am - 21:30pm (weekly)</p>
             <p><b id="oh" style="color:#A80000;">Office hours: </b> Drop an email or wechat message to the instructor or TAs for appointing a course-related face-to-face QA. </p><br>
 
     <p><b style="color:#A80000;">Schedule of Lectures</b> </p>
@@ -52,174 +50,137 @@
                 <table class="rules-table table-striped table-bordered table-condensed table-hover">
                     <thead>
                         <tr class="danger">
-                            <th style="text-align: center">Date</th>
-                            <th style="text-align: center">Topics</th>
-                            <th style="text-align: center"></th>
+                            <th style="text-align: left" width="120">Date</th>
+                            <th style="text-align: left">Topics</th>
                         </tr>
                     </thead>
                     <tbody>
 
 		<tr valign="top">
-			<td style="text-align: center">Feb 22, 2022</td>
-			<td>Introduction</td>
-			<td>
+			<td style="text-align: left">Feb 20, 2024</td>
+			<td>Introduction
 			<ul>
 				<li>Course logistics</li>
 				<li>A short tour to deep learning: illustrative applications, brief history etc.</li>
 			</ul>
-			</td>
+		</td>
+
 		</tr>
 		<tr valign="top">
-			<td style="text-align: center">March 1, 2022</td>
-			<td >Machine Learning Basics</td>
-			<td >
-				<ul>
+			<td style="text-align: left">Feb 27, 2024</td>
+			<td >Machine Learning Basics
+							<ul>
                 <li>Machine learning paradigms</li>
                 <li>Supervised learning: linear case</li>
                 <li>Supervised learning: non-linear case</li>
                 <li>Gradient Descent</li>
                 <li>Stochastic Gradient Descent</li>
                 <li>Unsupervised learning</li>
-            	</ul>
-			</td>
+            	</ul></td>
+
 		</tr>
 		<tr valign="top">
-			<td style="text-align: center">March 3, 2022</td>
-			<td >Deep Learning Basics</td>
-			<td >
-				<ul>
+			<td style="text-align: left">March 5, 2024</td>
+			<td >Deep Learning Basics
+							<ul>
                 <li>Neural layers: convolution, pooling, FC, activation, loss functions</li>
                 <li>Gradient back-propagation</li>
                 <li>Auto-differentiation</li>
                 <li>Regularization</li>
+            	</ul></td>
+
+		</tr>
+		<tr valign="top">
+			<td style="text-align: left">March 12, 2024</td>
+			<td >Backbone - I
+			<ul>
+                <li>Conventional Image Classification</li>
+                <li>AlexNet, VGGNet, GoogleNet, ResNet, DenseNet</li>
+                <li>Squeeze-and-Excitation, GroupConv, Depthwise / Depthwise Separable Convolution, ShuffleNet</li>
+            </ul></td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: left">March 19, 2024</td>
+			<td >Backbone - II
+			<ul>
+                <li>Classic Object Detection</li>
+                <li>Z-F Net</li>
+                <li>RCNN family: RCNN, Fast RCNN, Faster RCNN</li>
+                <li>YOLO, SSD</li>
+                <li>RetinaNet, FPN etc</li>
+            </ul>
+        </td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: left">March 26, 2024</td>
+			<td >Backbone - III
+			<ul>
+                <li>Fully convolutional networks (FCN)</li>
+                <li>Encoder-Decoder (SegNet), DeepLab</li>
+                <li>Contextual inference with graphical models (CNN-as-RNN)</li>
+                <li>Mask R-CNN</li>
+                <li>Generalization to other pixel-to-pixel tasks</li>
+                <li>Resolution matters: Simple Baseline & HRNet</li>
+            </ul>
+        </td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: left">April 2, 2024</td>
+			<td >Deep Models for Sequential Data
+			<ul>
+                <li>RNN</li>
+                <li>LSTM</li>
+                <li>Transformer</li>
+                <li>MLP-Mixer</li>
+                <li>Mamba</li>
             	</ul>
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">March 8, 2022</td>
-			<td >Backbone - I</td>
+            </td>
 			<td >
 			</td>
 		</tr>
 		<tr valign="top">
-			<td style="text-align: center">March 15, 2022</td>
-			<td >Backbone - II</td>
+			<td style="text-align: left">April 9, 2024</td>
+			<td >Foundation Models</td>
 			<td >
 			</td>
 		</tr>
 		<tr valign="top">
-			<td style="text-align: center">March 17, 2022</td>
-			<td >Backbone - III</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">March 22, 2022</td>
-			<td >Sequential Models</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">March 29, 2022</td>
-			<td >Transformer and MLP-Mixer</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">March 31, 2022</td>
+			<td style="text-align: left">April 16, 2024</td>
 			<td >Generative Models</td>
 			<td >
 			</td>
 		</tr>
 		<tr valign="top">
-			<td style="text-align: center">April 5, 2022</td>
+			<td style="text-align: left">April 23, 2024</td>
+			<td >Reinforcement Learning</td>
+			<td >
+			</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: left">April 30, 2024</td>
 			<td >Holiday - no class</td>
+		</tr>
+		<tr valign="top">
+			<td style="text-align: left">May 7, 2024</td>
+			<td >Learning on Graphs / Adversarial and Backdoor Learning</td>
 			<td >
 			</td>
 		</tr>
 		<tr valign="top">
-			<td style="text-align: center">April 12, 2022</td>
-			<td >Adversarial and Backdoor Learning</td>
-			<td >
-			</td>
+			<td style="text-align: left">May 14, 2024</td>
+			<td >DL for Science / Optimization</td>
 		</tr>
 		<tr valign="top">
-			<td style="text-align: center">April 14, 2022</td>
-			<td >Deep Learning on Graphs</td>
-			<td >Invited speaker: Professor Wei Hu from Wangxuan institute of Computer Technology, Peking University
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">April 19, 2022</td>
-			<td >Self-Supervised Learning / Meta-Learning / Continual Learning</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">April 26, 2022</td>
-			<td >Reinforcement Learning - I</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">April 28, 2022</td>
-			<td >Reinforcement Learning - II</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 3, 2022</td>
-			<td >Holiday - no class</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 10, 2022</td>
-			<td >Deep Learning for Optimization</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 12, 2022</td>
-			<td >Neural Architecture Search</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 17, 2022</td>
-			<td >Applications: Computer Vision</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 24, 2022</td>
-			<td >Applications: Robotics</td>
-			<td >
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 26, 2022</td>
-			<td >Applications: Natural Language Processing</td>
-			<td >Invited speaker: Professor Yansong Feng from Wangxuan institute of Computer Technology, Peking University
-			</td>
-		</tr>
-		<tr valign="top">
-			<td style="text-align: center">May 31, 2022</td>
+			<td style="text-align: left">May 21, 2024</td>
 			<td >Course Project Presentation - I</td>
-			<td >To be announced
-			</td>
 		</tr>
 		<tr valign="top">
-			<td style="text-align: center">June 7, 2022</td>
+			<td style="text-align: left">May 28, 2024</td>
 			<td >Course Project Presentation - II</td>
-			<td >To be announced
-			</td>
 		</tr>
 		<tr valign="top">
-			<td style="text-align: center">June 9, 2022</td>
+			<td style="text-align: left">June 4, 2024</td>
 			<td >Course Project Presentation - III</td>
-			<td >To be announced
-			</td>
 		</tr>
 	</tbody>
                 </table>
@@ -246,8 +207,8 @@
                             <td class="policy-header"><b>Final Grade</b></td>
                             <td>
                                 <ul>
-                                <li>Grading will be based on homeworks (25%), survey (25%) and a course project
-                                (50%). </li>
+                                <li>Grading will be based on homeworks (35%), survey (25%) and a course project
+                                (40%). </li>
                                 <li>The end-of-term grade is curved. Your overall grade will depend on your performance
                                     relative to your classmates.</li>
                             </ul>
